@@ -1,0 +1,271 @@
+{
+  "userSays": [
+    {
+      "id": "1a47a184-0553-4fa0-921f-29b2a1474b96",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "super",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd80e916-98f9-4e6e-89e7-b5cb18fd1317",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "dictionary",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "940111a8-08a4-4c87-a1d0-f4f53fb19501",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "system",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e05a4898-1378-4938-a952-7f57b9cdac0f",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "sweet",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8506d954-57cf-471b-8410-da10b2c465d0",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "spy",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b73f0052-9c32-49d1-8daa-ceb89952d358",
+      "data": [
+        {
+          "text": "what is the meaning of the word "
+        },
+        {
+          "text": "dry",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ba01a34-33f2-41ac-8571-0013b008358a",
+      "data": [
+        {
+          "text": "tell me the meaning of "
+        },
+        {
+          "text": "possible",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b1bec2c-6557-490e-b3c4-56892e236d01",
+      "data": [
+        {
+          "text": "tell me the meaning of echo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9604e94b-754c-4875-a9c1-d74fc2a4b6d8",
+      "data": [
+        {
+          "text": "tell me the meaning of "
+        },
+        {
+          "text": "decode",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5a32593-11a1-4ac9-a616-67142ad97afc",
+      "data": [
+        {
+          "text": "define "
+        },
+        {
+          "text": "sleep",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5d07ad1-7814-4df1-9d1d-7244211a2c5f",
+      "data": [
+        {
+          "text": "define "
+        },
+        {
+          "text": "sky",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c33ce509-8e36-4cea-92e6-2f90786802ff",
+      "data": [
+        {
+          "text": "define "
+        },
+        {
+          "text": "nature",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d60b13f0-3e4c-40c0-b85b-75537c5daf78",
+      "data": [
+        {
+          "text": "what is the meaning of "
+        },
+        {
+          "text": "dry",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c738ec2-682c-40d9-b6e5-d71a658b3f23",
+      "data": [
+        {
+          "text": "what is the meaning of "
+        },
+        {
+          "text": "elevate",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1634b79e-66f6-46a1-a630-df3953c203bb",
+      "data": [
+        {
+          "text": "what is the meaning of "
+        },
+        {
+          "text": "echo",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f18bc918-74be-4d8e-a85b-ac5740b7c7ce",
+  "name": "get_meaning",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_meaning",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@word",
+          "name": "word",
+          "value": "$word",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The meaning of $word is get_meaning",
+            "$word means get_meaning"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

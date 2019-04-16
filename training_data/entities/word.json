@@ -1,0 +1,15 @@
+{
+  "id": "2e26fc40-2cf0-4916-b5fc-8e47517a3bd3",
+  "name": "word",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "durable",
+      "synonyms": [
+        "durable"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

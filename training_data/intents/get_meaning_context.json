@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "794f44b9-8e23-477c-8173-a35f1d4a37de",
+      "data": [
+        {
+          "text": "can you tell its meaning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "825cf8f7-9613-46ae-9e3b-3484fa3aea09",
+      "data": [
+        {
+          "text": "tell me it meaning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf10e13d-545f-4a8e-998b-5c4782fb5359",
+      "data": [
+        {
+          "text": "what is its meaning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8395c23f-bc30-4152-8175-2b13cee00815",
+  "name": "get_meaning_context",
+  "auto": true,
+  "contexts": [
+    "word"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_meaning",
+      "affectedContexts": [
+        {
+          "name": "word",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The meaning of #word.word is get_meaning"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

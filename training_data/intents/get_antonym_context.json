@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "7ead911e-d623-4cc9-8cf5-cc2df006dac1",
+      "data": [
+        {
+          "text": "can you tell me its antonym"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77ef3c97-f967-4e1e-8695-1c9c622cc12b",
+      "data": [
+        {
+          "text": "What is its oppostie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4d252b5d-4ff4-4e2b-9cf0-8b12aa5b6f65",
+  "name": "get_antonym_context",
+  "auto": true,
+  "contexts": [
+    "word"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "word",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "the opposite of #word.word is get_antonym"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

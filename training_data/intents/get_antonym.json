@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "c9f92c2f-b902-454c-b3b3-925c46221149",
+      "data": [
+        {
+          "text": "antonym of "
+        },
+        {
+          "text": "loop",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c60de953-5bc1-4f36-8e52-fb0bbb7433a6",
+      "data": [
+        {
+          "text": "opposite of "
+        },
+        {
+          "text": "lame",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e04b459e-a422-4614-868f-d1fd9cef5197",
+      "data": [
+        {
+          "text": "what is the opposite of "
+        },
+        {
+          "text": "word",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "816494e8-8f10-4172-a58e-e93fabd991b1",
+      "data": [
+        {
+          "text": "what is the antonym of "
+        },
+        {
+          "text": "word",
+          "alias": "word",
+          "meta": "@word",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "19eb51c6-2887-4437-93b1-4eb74a178465",
+  "name": "get_antonym",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_antonym",
+      "affectedContexts": [
+        {
+          "name": "word",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@word",
+          "name": "word",
+          "value": "$word",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Antonym of $word is get_antonym",
+            "opposite of $word is get_antonym"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
